@@ -14,6 +14,9 @@ In this task we will run the program using print() function.
 'print()' function in Python displays output to the console or other standard output devices. It can output strings, numbers, and other data types, converting them to string representations if necessary.
 On code editor we will type "print("Hello World")" to get the flag needed for solving the question. Strings must be kept in quotation marks.
 **Question**: On the code editor, print "Hello World". What is the flag?
+```python
+print("Hello World")
+```
 **Answer**: THM{PRINT_STATEMENTS}
 
 ---
@@ -46,15 +49,22 @@ These operators are especially useful in `if` statements and loops.
 **Questions:**
 **Q1**: In the code editor, print the result of 21 + 43. What is the flag?
 So we will assign the given intergers to the variables like a, b and c to solve the problem.
+```python
 a=21
 b=43
 c=a+b
-print(c) //this is one way for easy understanding
-or directly by typing "print(21+43)"
+print(c) #this is one way for easy understanding
+```
+or 
+```python
+print(21+43)
+```
 **Flag**: THM{ADDITI0N}
 
 **Q2**: Print the result of 142 - 52. What is the flag?
+```python
 print(142-52)
+```
 **Flag**: THM{SUBTRCT}
 
 **Q3**: Print the result of 10 * 342. What is the flag?
@@ -65,7 +75,10 @@ print(10*342)  #multiplication
 **Flag**: THM{MULTIPLICATION_PYTHON}
 
 **Q4**: Print the result of 5 squared. What is the flag?
-print(5**2)  //The double asterisk ** in Python serves primarily as the exponentiation operator. It calculates the result of raising the number on its left to the power of the number on its right. For instance, x ** y computes x raised to the power of y. 
+```
+print(5**2)  
+```
+The double asterisk ** in Python serves primarily as the exponentiation operator. It calculates the result of raising the number on its left to the power of the number on its right. For instance, x ** y computes x raised to the power of y. 
 **Flag**: THM{EXP0N3NT_POWER}
 
 ---
