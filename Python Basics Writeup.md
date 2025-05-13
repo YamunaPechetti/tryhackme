@@ -21,9 +21,7 @@ On code editor we will type "print("Hello World")" to get the flag needed for so
 ## Task 3: Mathematical Operators
 This task introduces **basic arithmetic and comparison operators** in Python — similar to what you'd use in a calculator, but more powerful when combined with logic.
 
----
-
-### 🔢 Arithmetic Operators
+### Arithmetic Operators
 
 | Operation      | Symbol | Example           | Result |
 |----------------|--------|-------------------|--------|
@@ -34,9 +32,7 @@ This task introduces **basic arithmetic and comparison operators** in Python —
 | Modulus        | `%`    | `10 % 2`          | `0`    |
 | Exponentiation | `**`   | `5 ** 2` (5²)     | `25`   |
 
----
-
-### ⚖️ Comparison Operators
+### Comparison Operators
 | Condition                     | Symbol |
 |------------------------------|--------|
 | Greater than                 | `>`    |
@@ -47,4 +43,35 @@ This task introduces **basic arithmetic and comparison operators** in Python —
 | Less than or equal to        | `<=`   |
 These operators are especially useful in `if` statements and loops.
 
+**Questions:**
+**Q1**: In the code editor, print the result of 21 + 43. What is the flag?
+So we will assign the given intergers to the variables like a, b and c to solve the problem.
+a=21
+b=43
+c=a+b
+print(c) //this is one way for easy understanding
+or directly by typing "print(21+43)"
+**Flag**: THM{ADDITI0N}
+
+**Q2**: Print the result of 142 - 52. What is the flag?
+print(142-52)
+**Flag**: THM{SUBTRCT}
+
+**Q3**: Print the result of 10 * 342. What is the flag?
+print(10*342)
+**Flag**: THM{MULTIPLICATION_PYTHON}
+
+**Q4**: Print the result of 5 squared. What is the flag?
+print(5**2)  //The double asterisk ** in Python serves primarily as the exponentiation operator. It calculates the result of raising the number on its left to the power of the number on its right. For instance, x ** y computes x raised to the power of y. 
+**Flag**: THM{EXP0N3NT_POWER}
+
 ---
+
+## Task 4: Variables and Datatypes
+Variables are containers that store information. You can store different types of data and modify them as needed throughout a Python program.
+Example:
+
+```python
+food = "ice cream"  # String
+money = 2000        # Integer
+
