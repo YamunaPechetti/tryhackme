@@ -58,7 +58,10 @@ print(142-52)
 **Flag**: THM{SUBTRCT}
 
 **Q3**: Print the result of 10 * 342. What is the flag?
-print(10*342)
+
+```python
+print(10*342)  #multiplication
+```
 **Flag**: THM{MULTIPLICATION_PYTHON}
 
 **Q4**: Print the result of 5 squared. What is the flag?
@@ -74,4 +77,4 @@ Example:
 ```python
 food = "ice cream"  # String
 money = 2000        # Integer
-
+```
