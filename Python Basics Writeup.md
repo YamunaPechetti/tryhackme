@@ -3,19 +3,26 @@
 This room is a great intro to Python for beginners. It covers Variables, Loops, Functions, Data Structures, If statements and Files through short tasks. Here’s a walkthrough of each section with answers and brief explanations.
 
 ## Task 1: Introduction to Python 
+
 In this room you will be introduced to python scripting needed for cyber security.
 **Nothing to submit here, it is just showing the basic website for coding. You can explaore that website and you can even write a introductory code and submit.**
+
 ---
+
 ## Task 2: Hello World
 In this task we will run the program using print() function.
 'print()' function in Python displays output to the console or other standard output devices. It can output strings, numbers, and other data types, converting them to string representations if necessary.
 On code editor we will type "print("Hello World")" to get the flag needed for solving the question. Strings must be kept in quotation marks.
 **Question**: On the code editor, print "Hello World". What is the flag?
 **Answer**: THM{PRINT_STATEMENTS}
+
 ---
+
 ## Task 3: Mathematical Operators
 This task introduces **basic arithmetic and comparison operators** in Python — similar to what you'd use in a calculator, but more powerful when combined with logic.
+
 ---
+
 ### 🔢 Arithmetic Operators
 
 | Operation      | Symbol | Example           | Result |
@@ -26,7 +33,9 @@ This task introduces **basic arithmetic and comparison operators** in Python —
 | Division       | `/`    | `10 / 2`          | `5.0`  |
 | Modulus        | `%`    | `10 % 2`          | `0`    |
 | Exponentiation | `**`   | `5 ** 2` (5²)     | `25`   |
+
 ---
+
 ### ⚖️ Comparison Operators
 | Condition                     | Symbol |
 |------------------------------|--------|
@@ -37,4 +46,5 @@ This task introduces **basic arithmetic and comparison operators** in Python —
 | Greater than or equal to     | `>=`   |
 | Less than or equal to        | `<=`   |
 These operators are especially useful in `if` statements and loops.
+
 ---
