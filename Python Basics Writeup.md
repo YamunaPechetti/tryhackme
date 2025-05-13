@@ -10,6 +10,31 @@ In this room you will be introduced to python scripting needed for cyber securit
 In this task we will run the program using print() function.
 'print()' function in Python displays output to the console or other standard output devices. It can output strings, numbers, and other data types, converting them to string representations if necessary.
 On code editor we will type "print("Hello World")" to get the flag needed for solving the question. Strings must be kept in quotation marks.
-Question: On the code editor, print "Hello World". What is the flag?
-Answer: THM{PRINT_STATEMENTS}
+**Question**: On the code editor, print "Hello World". What is the flag?
+**Answer**: THM{PRINT_STATEMENTS}
+---
+## Task 3: Mathematical Operators
+This task introduces **basic arithmetic and comparison operators** in Python — similar to what you'd use in a calculator, but more powerful when combined with logic.
+---
+### 🔢 Arithmetic Operators
 
+| Operation      | Symbol | Example           | Result |
+|----------------|--------|-------------------|--------|
+| Addition       | `+`    | `1 + 1`           | `2`    |
+| Subtraction    | `-`    | `5 - 1`           | `4`    |
+| Multiplication | `*`    | `10 * 10`         | `100`  |
+| Division       | `/`    | `10 / 2`          | `5.0`  |
+| Modulus        | `%`    | `10 % 2`          | `0`    |
+| Exponentiation | `**`   | `5 ** 2` (5²)     | `25`   |
+---
+### ⚖️ Comparison Operators
+| Condition                     | Symbol |
+|------------------------------|--------|
+| Greater than                 | `>`    |
+| Less than                    | `<`    |
+| Equal to                     | `==`   |
+| Not equal to                 | `!=`   |
+| Greater than or equal to     | `>=`   |
+| Less than or equal to        | `<=`   |
+These operators are especially useful in `if` statements and loops.
+---
